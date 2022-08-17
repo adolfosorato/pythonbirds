@@ -92,10 +92,10 @@ class Carro:
         return self.direcao.valor
 
     def girar_a_direita(self):
-        self.girar_a_direita()
+        self.direcao.girar_a_direita()
 
     def girar_a_esquerda(self):
-        self.girar_a_esquerda()
+        self.direcao.girar_a_esquerda()
 
 
 NORTE = 'Norte'
